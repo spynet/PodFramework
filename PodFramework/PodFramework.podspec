@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Arun" => "spynet3.3@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/spynet/PodFramework.git", :tag => "1.0.0" }
-  spec.source_files  = "PodFramework","PodFramework//.{swift}"
+  spec.source_files  = "PodFramework"
 
 end
