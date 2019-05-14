@@ -7,9 +7,9 @@ Pod::Spec.new do |spec|
   spec.description  = "Sample"
   spec.homepage     = "https://github.com/spynet/PodFramework"
   spec.license      = "MIT"
-  spec.author       = {"Arun" => "spynet3.3@gmail.com" }
+  spec.author       = { "Arun" => "spynet3.3@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/spynet/PodFramework.git", :tag => "1.0.0" }
-  spec.source_files  = "PodFramework/Classes/*swift"
+  spec.source_files  = "PodFramework.framework"
 
 end
